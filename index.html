@@ -32,8 +32,7 @@
             <h1>SHRUTI PATEL</h1>
             <p class="subtitle">Computer Engineering Student</p>
             <p class="subtitle">Pandit Deendayal Energy University</p>
-            <!-- ITEM 1: SUBMISSION DATE ADDED BACK -->
-            <p class="date">Submission Date: [Enter Final Submission Date]</p>
+            <p class="date">Submission Date: 13 November 2025</p>
             <p class="bio-line">Full-Stack Developer &nbsp;&bull;&nbsp; UI/UX Enthusiast &nbsp;&bull;&nbsp; Creative Problem-Solver</p>
             <hr class="separator">
             <p class="tagline">"Always Learning, Always Building."</p>
@@ -93,7 +92,6 @@
                     <div class="project-content">
                         <h3>CallSync – A Role-Based Smart Call Management System</h3>
                         <p><strong>Overview & Objectives:</strong> Designed to solve messy operational communication, CallSync is a platform that brings clarity to managing customer calls. It allows teams to assign tasks and track progress in one place, replacing confusion with a transparent workflow.</p>
-                        <!-- ITEM 2: OUTCOMES & INNOVATIONS ADDED -->
                         <p><strong>Outcomes & Innovations:</strong> The final outcome is a scalable and intuitive call management system. The key innovation is its role-specific dashboard design, which simplifies complex workflows and minimizes human error by showing users only the information relevant to their tasks.</p>
                         <p><strong>Challenges & Solutions:</strong> The main challenge was implementing a secure role-based access control system. This was solved using middleware in the Express.js backend to verify user roles before granting access to specific API routes.</p>
                         <a href="https://github.com/ShrutiPatel038/calls-management-system" class="project-link" target="_blank"><i class="fab fa-github"></i> View Code on GitHub</a>
@@ -126,9 +124,31 @@
             <div class="container">
                 <h2>Advanced Skill Development</h2>
                 <div class="skills-grid">
-                    <div class="skill-card"><h4>Full-Stack Development (MERN & MySQL)</h4><p>Proficient in building end-to-end applications. My skills cover backend API creation with Node.js/Express, database management, and interactive frontend development with React.</p><p><strong>Artefact:</strong> Backend Route Snippet</p><pre><code>...</code></pre></div>
-                    <div class="skill-card"><h4>Team Collaboration & Communication</h4><p>Developed strong collaborative skills through my roles in the Symmetry Designing Club, where I work with a team to manage campaigns, design content, and organize events.</p><p><strong>Artefact:</strong> Feedback from Team Lead</p><blockquote>"Shruti is an invaluable member of our committee. Her collaborative spirit and clear communication have been key to the success of our social media campaigns."</blockquote><cite>– Dhruvi Singh, Head, Symmetry Designing Club</cite></div>
-                    <div class="skill-card"><h4>UI/UX Design Fundamentals</h4><p>As a UI/UX enthusiast, I apply design principles in all my projects, using tools like Figma for mockups. I focus on creating clean, intuitive, and responsive layouts.</p><p><strong>Artefact:</strong> UI Mockup</p><img src="images/design-artefact.jpg" alt="UI mockup of an app screen" class="artefact-image"></div>
+                    <div class="skill-card">
+                        <h4>Full-Stack Development (MERN & MySQL)</h4>
+                        <p>Proficient in building end-to-end applications. My skills cover backend API creation with Node.js/Express, database management, and interactive frontend development with React.</p>
+                        <p><strong>Artefact:</strong> Backend Route Snippet</p>
+                        <!-- CODE SNIPPET RESTORED HERE -->
+                        <pre><code>// Secure route to fetch user profile
+router.get('/profile', isAuthenticated, (req, res) => {
+  User.findById(req.user.id)
+    .then(user => res.json(user))
+    .catch(err => res.status(400).json('Error'));
+});</code></pre>
+                    </div>
+                    <div class="skill-card">
+                        <h4>Team Collaboration & Communication</h4>
+                        <p>Developed strong collaborative skills through my roles in the Symmetry Designing Club, where I work with a team to manage campaigns, design content, and organize events.</p>
+                        <p><strong>Artefact:</strong> Feedback from Team Lead</p>
+                        <blockquote>"Shruti is an invaluable member of our committee. Her collaborative spirit and clear communication have been key to the success of our social media campaigns."</blockquote>
+                        <cite>– Dhruvi Singh, Head, Symmetry Designing Club</cite>
+                    </div>
+                    <div class="skill-card">
+                        <h4>UI/UX Design Fundamentals</h4>
+                        <p>As a UI/UX enthusiast, I apply design principles in all my projects, using tools like Figma for mockups. I focus on creating clean, intuitive, and responsive layouts.</p>
+                        <p><strong>Artefact:</strong> UI Mockup</p>
+                        <img src="images/design-artefact.jpg" alt="UI mockup of an app screen" class="artefact-image">
+                    </div>
                 </div>
             </section>
 
@@ -138,7 +158,6 @@
                 <p><strong>Experience:</strong> Community Service Intern, RK Foundation, Unjha</p>
                 <p><strong>Roles & Responsibilities:</strong> As an intern, my role involved collaborating closely with other volunteers and staff, especially during the "Free Tiffin Seva" food distribution service. I took initiative on projects while also ensuring my work was aligned with the team's daily operational needs.</p>
                 <p><strong>Experience:</strong> Core Committee, Symmetry Designing Club</p>
-                <!-- ITEM 3: TEAM DYNAMICS & CONFLICT RESOLUTION ADDED -->
                 <p><strong>Team Dynamics & Conflict Resolution:</strong> Our committee is made up of students with diverse design styles. A common challenge is deciding on a final creative direction for a major event campaign. In one instance, a conflict arose between two competing design concepts. I helped resolve this by facilitating a meeting where we listed the pros and cons of each design against our campaign goals. This led to a compromise where we combined the strongest elements of both ideas, resulting in a better final product and ensuring everyone felt their contribution was valued.</p>
             </div>
         </section>
