@@ -144,6 +144,34 @@ p { margin-bottom: 1rem; color: var(--text-light); font-size: 17.5px; }
 .toc-card i { font-size: 1.5rem; color: var(--secondary-color); }
 
 /* --- Resume Section --- */
+.resume-download-hero {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.resume-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--secondary-color);
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.2);
+}
+.resume-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(52, 152, 219, 0.3);
+    background: #2980b9;
+}
+.resume-btn i {
+    font-size: 1rem;
+}
+.resume-btn span {
+    font-size: 1rem;
+}
 .job-profile { background: #fff; padding: 2rem; border-radius: 8px; margin-bottom: 2rem; box-shadow: 0 4px 8px rgba(0,0,0,0.05); }
 .job-profile h3 { text-align: center; margin-bottom: 1rem; }
 .job-profile p { text-align: center; font-size: 17.5px; max-width: 800px; margin: 0 auto; }
